@@ -1,4 +1,4 @@
-public class Aeroplane { // This class is used to keep track of specific planes' ID code and capacity.
+public class Aeroplane { 
     
     private final String ID;
     private final int capacity;
@@ -7,11 +7,12 @@ public class Aeroplane { // This class is used to keep track of specific planes'
         this.ID = ID;
         this.capacity = capacity;
     }
-    @Override public String toString(){
-        return ID + " ("+capacity +" ppl) ";
+    
+    @Override public String toString() {
+        return ID + " (" + capacity + " ppl) ";
     }
     
-    public String getID(){
+    public String getID() {
         return ID;
     }
     
