@@ -6,13 +6,13 @@ public class UserInterface {
     private final Scanner reader;
     private Flight myFlight;
     private Aeroplane myPlane;
-    private final Database myDatabase = new Database(); // <-- Database object for adding information about flights and planes. 
+    private final Database myDatabase = new Database(); 
 
     public UserInterface(Scanner reader) {
         this.reader = reader;
     }
 
-    public void userEntry() { // Method for displaying options and obtaining input.
+    public void userEntry() { 
         System.out.println("Airport panel\n-----------------------\n");
         while (true) { // <-- Continues to display the first menu until the user exits by pressing x.
             System.out.print("Choose operation:\n"
