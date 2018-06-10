@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class Database { // This class uses 2 ArrayLists to keep track of planes and flights.
+public class Database { 
     
     private final ArrayList<Aeroplane> myPlanes;
     private final ArrayList<Flight> myFlights;
